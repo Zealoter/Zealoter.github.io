@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my research areas are game theory and reinforcement learning.
+[//]: # (My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my research areas are game theory and reinforcement learning.)
 
 [//]: # (My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> &#40;You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>&#41;.)
 
@@ -77,7 +77,7 @@ My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my
 [//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
 # 💻 Experiences
-### Reinforcement Learning Fine-tuning of Generative Models at Vivo (Feb. 2025 ~ Now)
+### SD Model Fine-Tuning via Reinforcement Learning at Vivo (Feb. 2025 ~ Now)
 I have been working on fine-tuning a Stable Diffusion (SD) model using reinforcement learning to enhance its alignment with user preferences for image generation. The project focuses on designing a reward model that evaluates output quality based on aesthetic metrics, textual relevance, and diversity, while integrating human feedback data into the training loop. Current work involves balancing generation creativity with computational efficiency and mitigating reward hacking risks. Though the project remains in its iterative phase without finalized results, the framework has shown preliminary improvements in qualitative evaluations. Development is ongoing to refine reward mechanisms and scale the training process across distributed systems.
 
 ### Texas Hold'em AI Development at Fen AI Lab (Sep. 2023 ~ Jan. 2024)
