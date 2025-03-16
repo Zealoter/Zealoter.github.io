@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ju Qi"
-description              : "I'm so tried"
+description              : "Game Theory, Reinforcement Learning"
 repository               : "Zealoter/Zealoter.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ju Qo"
+  name             : "Ju Qi"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  bio              : "Huazhong University of Science and Technology"
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/Zealoter"
   google_plus      :
   keybase          :
   instagram        :
