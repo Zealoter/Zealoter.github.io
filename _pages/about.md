@@ -35,8 +35,8 @@ redirect_from:
 
 # 📝 Publications 
 
-1. [Accelerating Nash Equilibrium Convergence in Monte Carlo Settings Through Counterfactual Value Based Fictitious Play (NeurIPS 2024).](https://arxiv.org/abs/2309.03084) Introduces the Monte Carlo Counterfactual Value-Based Fictitious Play (MCCFVFP) algorithm for large-scale games, achieving 20–50\% faster convergence than standard MCCFR in complex settings like Texas Hold’em.
-2. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies.](https://arxiv.org/abs/2411.01217) Proposes the Preference Counterfactual Regret Minimization (Pref-CFR) algorithm to achieve diverse Nash equilibria, enabling customizable strategies by incorporating preference and vulnerability parameters. Demonstrates distinct play styles in Texas Hold’em without sacrificing strategic strength.
+1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) Proposes the Preference Counterfactual Regret Minimization (Pref-CFR) algorithm to achieve diverse Nash equilibria, enabling customizable strategies by incorporating preference and vulnerability parameters. Demonstrates distinct play styles in Texas Hold’em without sacrificing strategic strength.
+2. [Accelerating Nash Equilibrium Convergence in Monte Carlo Settings Through Counterfactual Value Based Fictitious Play (NeurIPS 2024).](https://arxiv.org/abs/2309.03084) Introduces the Monte Carlo Counterfactual Value-Based Fictitious Play (MCCFVFP) algorithm for large-scale games, achieving 20–50\% faster convergence than standard MCCFR in complex settings like Texas Hold’em.
 3. [Real-Time Weighted Fictitious Play: Converging to Equilibrium at the Speed of $O(T^{-1})$ in Games.](https://arxiv.org/abs/2402.12164) Presents the Real-Time Weighted Fictitious Play (RTWFP) algorithm with $O(T^{-1})$ convergence in two-player zero-sum games, extending to correlated equilibrium and continuous-time FP. Outperforms existing algorithms in scalability and speed.
 4. [ELO-Rated Sequence Rewards: Advancing Reinforcement Learning Models.](https://arxiv.org/abs/2409.03301) Proposes ELO-Rated Sequence Rewards (ERRL), which uses ordinal preferences and ELO ratings to replace numerical rewards, achieving superior performance in long-term RL tasks like Atari benchmarks.
 
@@ -77,7 +77,11 @@ redirect_from:
 [//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
 # 💻 Experiences
-### SD Model Fine-Tuning via Reinforcement Learning at Vivo (Feb. 2025 ~ Now)
+
+### Fine-tuning LLM via Game Theory (Mar. 2025 ~ Now)
+The success of Large Language Models (LLMs) depends on the joint improvement in three dimensions: computing power, algorithms, and data. Currently, high-quality data has become a bottleneck restricting the further development of LLMs. We take game theory as the entry point, enabling LLMs to generate high-quality data through self-play, thereby further advancing LLM training.
+
+### SD Model Fine-Tuning via Reinforcement Learning at Vivo (Feb. 2025 ~ Apr. 2025)
 I have been working on fine-tuning a Stable Diffusion (SD) model using reinforcement learning to enhance its alignment with user preferences for image generation. The project focuses on designing a reward model that evaluates output quality based on aesthetic metrics, textual relevance, and diversity, while integrating human feedback data into the training loop. Current work involves balancing generation creativity with computational efficiency and mitigating reward hacking risks. Though the project remains in its iterative phase without finalized results, the framework has shown preliminary improvements in qualitative evaluations. Development is ongoing to refine reward mechanisms and scale the training process across distributed systems.
 
 ### Texas Hold'em AI Development at Fen AI Lab (Sep. 2023 ~ Jan. 2024)
