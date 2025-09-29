@@ -9,7 +9,7 @@
 title                    : "居奇 (Ju Qi)"
 description              : "Game Theory, Reinforcement Learning, Large Language Model"
 repository               : "Zealoter/Zealoter.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=l0nT2r4AAAAJ"
-  email            : "juqi@hust.edu.en"
+  email            : "juqi@hust.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
