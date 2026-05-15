@@ -34,8 +34,8 @@ redirect_from:
   <div class="logo-row__logo"><img src="{{ '/images/logos/hust.png' | relative_url }}" alt="HUST"></div>
   <div class="logo-row__body">
     <h4>Huazhong University of Science and Technology &mdash; Wuhan, China</h4>
-    <p><em>Sep. 2019 - Dec. 2025 (now)</em>, Ph.D. in Control Science and Engineering, School of Artificial Intelligence and Automation.</p>
-    <p>Research areas: game theory, reinforcement learning, large language models.</p>
+    <p><em>Sep. 2019 - Jun. 2026</em>, Ph.D. in Control Science and Engineering, School of Artificial Intelligence and Automation, advised by Prof. Yunfeng Luo.</p>
+    <p>Research areas: Large Language Model, Reinforcement Learning, Game Theory.</p>
   </div>
 </div>
 
@@ -84,23 +84,61 @@ redirect_from:
 
 [//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
-# 💻 Experiences
+# 🧑‍💼 Work Experiences
 
-### Fine-tuning LLM via Game Theory (Mar. 2025 ~ Now)
-Exploring game-theoretic approaches to overcome data bottlenecks in LLM training. By enabling self-play to generate high-quality data, we aim to advance LLM fine-tuning beyond reliance on static datasets. The work investigates how multi-agent self-play, regret minimization, and equilibrium-based reward shaping can drive continual improvement of large models without requiring more human-annotated data.
+### ByteDance Seed &mdash; Doubao Post-Training (Jul. 2026 ~ Now)
+Working on the post-training of Doubao large language models at ByteDance Seed. Focused on alignment and capability enhancement through supervised fine-tuning, RLHF / RLAIF, and reasoning-oriented reward modeling, with the goal of pushing Doubao's instruction following, reasoning and tool-use abilities further.
 
-### ByteDance Seed &mdash; Reinforcement Learning for Game NPCs (Jul. 2021 ~ Mar. 2022)
-This was the most formative industrial project in my research career. I joined ByteDance Nuverse (later part of ByteDance Seed) as the main RL implementer for the AAA project *One Piece: Burning Blood*, where my responsibility was to build companion-style NPCs that could fight alongside human players with diverse, human-like personalities rather than a single dominant policy.
+# 💻 Internship Experiences
 
-I designed and integrated a *style evolution module* on top of a distributed PPO/IMPALA training framework, fusing offline human preference data, online behavioral statistics and reward decomposition so that we could explicitly trade off aggression, defense, support and exploration. To make styles distinguishable yet still strong, I introduced population-based training with auxiliary diversity rewards, KL constraints across style heads, and a curated curriculum from scripted bots up to mirror self-play. I also rebuilt the data pipeline, evaluation harness and online A/B tooling, which turned a research prototype into something operations could actually ship.
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Seed"></div>
+  <div class="logo-row__body">
+    <h3>ByteDance Seed &mdash; LLM Post-training Based on Games (Jun. 2025 ~ Oct. 2025)</h3>
+    <p><em>Individual Contributor.</em></p>
+    <ul>
+      <li><strong>Project Goal:</strong> integrate game-theoretic problems into LLM post-training to enhance LLM capabilities.</li>
+      <li><strong>Project Results:</strong> delivered game-oriented LLM evaluation &amp; training frameworks; trained an LLM Texas Hold'em AI that outperformed GPT-o3, Grok-4, etc., with improved instruction following.</li>
+      <li><strong>Personal Work:</strong> proposed a novel algorithm with an "LLM Reflection" mechanism that outperforms traditional RL methods in game scenarios; built the game-oriented LLM evaluation framework (integrated into the team's system) and a training framework based on Verl.</li>
+    </ul>
+  </div>
+</div>
 
-The launched companion NPCs improved key combat KPIs by **80–120%** over the previous rule-based system, several style variants reached production-ready quality, and the methodology was reused as an internal template for subsequent NPC projects. The work also resulted in a co-authored paper on human–AI interaction. This experience taught me how to take RL all the way from algorithmic design to a real, high-traffic product.
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/Vivo.png' | relative_url }}" alt="vivo"></div>
+  <div class="logo-row__body">
+    <h3>vivo &mdash; SD Model Fine-Tuning via Reinforcement Learning (Feb. 2025 ~ Apr. 2025)</h3>
+    <ul>
+      <li><strong>Project Goal:</strong> fine-tune Stable Diffusion with reinforcement learning to improve generation quality and prompt alignment.</li>
+      <li><strong>Project Results:</strong> early results show clear improvements in image quality, textual relevance and human preference alignment; ongoing work on reward design and distributed training scale-up.</li>
+      <li><strong>Personal Work:</strong> designed a composite reward model combining aesthetics, textual relevance, diversity and human feedback; tuned the RL training pipeline for SD.</li>
+    </ul>
+  </div>
+</div>
 
-### SD Model Fine-Tuning via Reinforcement Learning at vivo (Feb. 2025 ~ Apr. 2025)
-Worked on fine-tuning Stable Diffusion with reinforcement learning. Designed a reward model combining aesthetics, textual relevance, diversity, and human feedback. Early results show improved image quality and alignment, with ongoing efforts to refine reward design and scale distributed training.
+### Fen AI Lab &mdash; Texas Hold'em AI (Sep. 2023 ~ Jan. 2024)
+*Project member, team of four.*
 
-### Texas Hold'em AI Development at Fen AI Lab (Sep. 2023 ~ Jan. 2024)
-Contributed to building a poker AI rivaling Pluribus. Implemented and tuned MCCFR and its variants, optimized computation, and developed strategy storage and visualization tools. Helped achieve professional-level play in 2-player games.
+- **Project Goal:** create an AI that matches the performance of Pluribus, a renowned Texas Hold'em AI.
+- **Project Results:** the final AI reached the level of professional players in two-player Texas Hold'em; the multi-player version is still under development.
+- **Personal Work:** contributed to key algorithms (MCCFR, MCCFR pruning), built foundational components such as strategy storage and result visualization, and handled algorithm parameter tuning and testing.
 
-### Land Auction Strategy Optimization at China Resources Group (Feb. 2021 ~ Jun. 2022)
-Developed a bidding algorithm for high-stakes land auctions by applying Fictitious Play to model competitor strategies and optimize bids. Validated in multiple live auctions, the method improved bid accuracy by 3–4× and increased win probability by ~5%. The algorithm was subsequently adopted as the standard tool for large-scale transactions.
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Nuverse"></div>
+  <div class="logo-row__body">
+    <h3>ByteDance Nuverse &mdash; Reinforcement Learning Internship (Jul. 2021 ~ Mar. 2022)</h3>
+    <p><em>Main implementer, team of two.</em></p>
+    <ul>
+      <li><strong>Project Goal:</strong> design multi-style AI companion NPCs for the game <em>One Piece: Burning Blood</em>.</li>
+      <li><strong>Project Results:</strong> added a style evolution module on top of the previous AI training framework, leading to an 80–120% improvement in key indicators and clear style differentiation in play; several AIs reached deployable quality.</li>
+      <li><strong>Personal Work:</strong> served as the main executor of the project. Under my advisor's guidance, I implemented the multi-style AI algorithm and explored the integration of human preferences into reinforcement learning, which culminated in a research paper summarizing the findings and potential applications.</li>
+    </ul>
+  </div>
+</div>
+
+### China Resources Group &mdash; Land Auction (Feb. 2021 ~ Jun. 2021)
+*Project leader, team of six.*
+
+- **Project Goal:** design a bidding strategy for China Resources Group in the "first/last" land auction.
+- **Project Results:** the strategy was approved by China Resources Land Group and deployed in dozens of land auctions (each over $100M). The algorithm outperformed the group's expert approach, boosting bid accuracy 3–4× and winning probability by ~5%, and was adopted as their standard land auction strategy.
+- **Personal Work:** built a simulator of the "first/last" land auction from historical data and applied the Fictitious Play algorithm to develop strategies. Participated in three real auctions involving a total bidding scale of $1B, and refined the model based on real-world outcomes.
