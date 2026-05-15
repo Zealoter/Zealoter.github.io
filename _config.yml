@@ -136,6 +136,7 @@ defaults:
       layout: post
       author_profile: true
       lang: zh
+      permalink: /zh/:title/
   - scope:
       path: "_posts/EN"
       type: posts

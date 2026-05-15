@@ -16,7 +16,22 @@ lang: zh
 <span class='anchor' id='about-me'></span>
 
 # 📖 教育经历
-- *2019 年 9 月 - 2025 年 12 月（在读）*，华中科技大学，武汉，控制科学与工程博士。
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/hust.svg' | relative_url }}" alt="华中科技大学"></div>
+  <div class="logo-row__body">
+    <h4>华中科技大学 &mdash; 武汉</h4>
+    <p><em>2019 年 9 月 - 2025 年 12 月（在读）</em>，控制科学与工程博士。</p>
+  </div>
+</div>
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/aia.svg' | relative_url }}" alt="人工智能与自动化学院"></div>
+  <div class="logo-row__body">
+    <h4>人工智能与自动化学院</h4>
+    <p>研究方向：博弈论、强化学习、大语言模型。</p>
+  </div>
+</div>
 
 
 
@@ -31,19 +46,42 @@ lang: zh
 
 # 💻 项目经历
 
-### 基于博弈论的大语言模型微调（2025 年 3 月 ~ 至今）
-探索使用博弈论方法突破大模型训练中的数据瓶颈，通过自博弈（self-play）生成高质量训练数据，推动大模型微调脱离对静态数据集的依赖。
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/llm.svg' | relative_url }}" alt="LLM"></div>
+  <div class="logo-row__body">
+    <h3>基于博弈论的大语言模型微调（2025 年 3 月 ~ 至今）</h3>
+    <p>探索使用博弈论方法突破大模型训练中的数据瓶颈，通过自博弈（self-play）生成高质量训练数据，推动大模型微调脱离对静态数据集的依赖。</p>
+  </div>
+</div>
 
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/vivo.svg' | relative_url }}" alt="vivo"></div>
+  <div class="logo-row__body">
+    <h3>vivo · 基于强化学习的 Stable Diffusion 模型微调（2025 年 2 月 ~ 2025 年 4 月）</h3>
+    <p>负责使用强化学习对 Stable Diffusion 进行微调，设计了融合美学评分、文本相关性、多样性与人类反馈的奖励模型。初步结果显示生成图像在质量与对齐性上均有显著提升，正持续优化奖励设计与分布式训练规模。</p>
+  </div>
+</div>
 
-### vivo · 基于强化学习的 Stable Diffusion 模型微调（2025 年 2 月 ~ 2025 年 4 月）
-负责使用强化学习对 Stable Diffusion 进行微调，设计了融合美学评分、文本相关性、多样性与人类反馈的奖励模型。初步结果显示生成图像在质量与对齐性上均有显著提升，正持续优化奖励设计与分布式训练规模。
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/molecule.svg' | relative_url }}" alt="分子AI Lab"></div>
+  <div class="logo-row__body">
+    <h3>分子 AI Lab · 德州扑克 AI 研发（2023 年 9 月 ~ 2024 年 1 月）</h3>
+    <p>参与构建对标 Pluribus 的扑克 AI 系统。负责实现并调优 MCCFR 及其变种算法、优化计算性能，并开发策略存储与可视化工具，在两人对战中达到职业玩家水平。</p>
+  </div>
+</div>
 
-### 分子 AI Lab · 德州扑克 AI 研发（2023 年 9 月 ~ 2024 年 1 月）
-参与构建对标 Pluribus 的扑克 AI 系统。负责实现并调优 MCCFR 及其变种算法、优化计算性能，并开发策略存储与可视化工具，在两人对战中达到职业玩家水平。
- 
-### 字节跳动 · 朝夕光年游戏 NPC 强化学习项目（2021 年 7 月 ~ 2022 年 3 月）
-作为主要实现者，为《航海王：燃烧意志》设计多风格 AI 陪玩 NPC。在强化学习框架中加入风格演化模块，结合人类偏好数据生成多样化的对战风格。核心指标提升 80–120%，部分模型达到上线水平，并合作发表了人机交互方向的论文。
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="字节跳动"></div>
+  <div class="logo-row__body">
+    <h3>字节跳动 · 朝夕光年游戏 NPC 强化学习项目（2021 年 7 月 ~ 2022 年 3 月）</h3>
+    <p>作为主要实现者，为《航海王：燃烧意志》设计多风格 AI 陪玩 NPC。在强化学习框架中加入风格演化模块，结合人类偏好数据生成多样化的对战风格。核心指标提升 80–120%，部分模型达到上线水平，并合作发表了人机交互方向的论文。</p>
+  </div>
+</div>
 
-
-### 华润集团 · 土地竞拍策略优化（2021 年 2 月 ~ 2022 年 6 月）
-基于虚拟对弈（Fictitious Play）建模竞争对手策略，开发了用于大额土地竞拍的报价算法。在多次实拍中验证，报价精度提升 3–4 倍，中标概率提升约 5%，该算法后被采用为大额交易的标准工具。
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/cr.svg' | relative_url }}" alt="华润集团"></div>
+  <div class="logo-row__body">
+    <h3>华润集团 · 土地竞拍策略优化（2021 年 2 月 ~ 2022 年 6 月）</h3>
+    <p>基于虚拟对弈（Fictitious Play）建模竞争对手策略，开发了用于大额土地竞拍的报价算法。在多次实拍中验证，报价精度提升 3–4 倍，中标概率提升约 5%，该算法后被采用为大额交易的标准工具。</p>
+  </div>
+</div>

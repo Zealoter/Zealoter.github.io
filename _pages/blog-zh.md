@@ -19,15 +19,15 @@ lang: zh
 
 {% assign cn_posts = site.posts | where_exp: "post", "post.path contains '_posts/CN/'" | sort: 'date' | reverse %}
 {% if cn_posts.size > 0 %}
-  {% for post in cn_posts %}
-    <div class="paper-box" style="margin-bottom: 30px;">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="page__meta">{{ post.date | date: "%Y年%m月%d日" }}</p>
-      <div class="archive__item-excerpt">
-        {{ post.excerpt | strip_html | truncate: 200 }}
-      </div>
-    </div>
-  {% endfor %}
+{% for post in cn_posts %}
+<div class="paper-box" style="margin-bottom: 30px;">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="page__meta">{{ post.date | date: "%Y年%m月%d日" }}</p>
+  <div class="archive__item-excerpt">
+    {{ post.excerpt | strip_html | truncate: 200 }}
+  </div>
+</div>
+{% endfor %}
 {% else %}
-  <p>还没有博客文章，敬请期待！</p>
+<p>还没有博客文章，敬请期待！</p>
 {% endif %}

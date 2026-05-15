@@ -410,3 +410,51 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Logo + content rows (Education / Experience)
+   ========================================================================== */
+
+.logo-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin: 1em 0 1.25em;
+
+  &__logo {
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+
+    h3, h4 {
+      margin-top: 0;
+      margin-bottom: 0.25em;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    p {
+      margin: 0.25em 0;
+    }
+  }
+}
+
