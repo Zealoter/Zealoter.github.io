@@ -5,19 +5,24 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           {% if page.lang == 'zh' %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ site.baseurl }}/zh/">首页</a></li>
-            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/zh/blog/">博客</a></li>
-            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/">English</a></li>
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/zh/' | relative_url }}">首页</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/blog/' | relative_url }}">博客</a></li>
           {% else %}
-            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ site.baseurl }}/">Homepage</a></li>
+            <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}">Homepage</a></li>
             {% for link in site.data.navigation.main %}
-              <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+              <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
             {% endfor %}
-            <li class="masthead__menu-item"><a href="{{ site.baseurl }}/zh/">中文</a></li>
           {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+    </div>
+    <div class="masthead__lang">
+      {% if page.lang == 'zh' %}
+        <a href="{{ '/' | relative_url }}">English</a>
+      {% else %}
+        <a href="{{ '/zh/' | relative_url }}">中文</a>
+      {% endif %}
     </div>
   </div>
 </div>

@@ -18,6 +18,7 @@
     @include clearfix;
     padding: .5em;
     font-family: $sans-serif-narrow;
+    position: relative;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -29,6 +30,31 @@
 
     a {
       text-decoration: none;
+    }
+  }
+}
+
+.masthead__lang {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  z-index: 11;
+
+  a {
+    display: inline-block;
+    padding: 0.35em 0.9em;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    font-weight: 700;
+    color: $masthead-link-color;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: #fff;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+      background: mix(#fff, $primary-color, 90%);
     }
   }
 }
