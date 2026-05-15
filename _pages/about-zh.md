@@ -53,7 +53,6 @@ lang: zh
   <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动 Seed"></div>
   <div class="logo-row__body">
     <h3>字节跳动 Seed &mdash; 基于博弈的大模型后训练（2025 年 6 月 ~ 2025 年 10 月）</h3>
-    <p><em>独立贡献者（Individual Contributor）</em></p>
     <ul>
       <li><strong>项目目标：</strong>将博弈论问题引入大语言模型的后训练流程，提升 LLM 能力上限。</li>
       <li><strong>项目成果：</strong>交付了面向博弈场景的 LLM 评估框架与训练框架；训练出的德州扑克 LLM AI 在指令遵循能力提升的同时，整体表现优于 GPT-o3、Grok-4 等模型。</li>
@@ -75,7 +74,6 @@ lang: zh
 </div>
 
 ### Fen AI &mdash; 德州扑克 AI（2023 年 9 月 ~ 2024 年 1 月）
-*项目成员，4 人团队。*
 
 - **项目目标：**打造一款对标 Pluribus（业内知名德州扑克 AI）水平的 AI。
 - **项目成果：**最终 AI 在两人德州扑克中达到了职业玩家水平，多人德州扑克 AI 仍在持续开发中。
@@ -85,7 +83,6 @@ lang: zh
   <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动朝夕光年"></div>
   <div class="logo-row__body">
     <h3>字节跳动朝夕光年 &mdash; 强化学习实习（2021 年 7 月 ~ 2022 年 3 月）</h3>
-    <p><em>主要实现者，2 人团队。</em></p>
     <ul>
       <li><strong>项目目标：</strong>为游戏《航海王：燃烧意志》设计多风格 AI 陪玩 NPC。</li>
       <li><strong>项目成果：</strong>在原有 AI 训练框架之上加入风格演化模块，核心指标提升 80–120%，并在玩法风格上形成清晰区分，部分 AI 已达到可上线水平。</li>
@@ -95,7 +92,6 @@ lang: zh
 </div>
 
 ### 华润集团 &mdash; 土地竞拍（2021 年 2 月 ~ 2021 年 6 月）
-*项目负责人，6 人团队。*
 
 - **项目目标：**为华润集团设计 "首/末" 类型土地竞拍中的报价策略。
 - **项目成果：**该策略获华润置地集团认可，并在数十宗（每宗超 1 亿美元）的土地竞拍中部署。算法表现优于集团专家方案，报价精度提升 3–4 倍，中标概率提升约 5%，最终被采纳为集团标准土地竞拍策略。

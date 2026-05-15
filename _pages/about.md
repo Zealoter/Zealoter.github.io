@@ -100,7 +100,6 @@ redirect_from:
   <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Seed"></div>
   <div class="logo-row__body">
     <h3>ByteDance Seed &mdash; LLM Post-training Based on Games (Jun. 2025 ~ Oct. 2025)</h3>
-    <p><em>Individual Contributor.</em></p>
     <ul>
       <li><strong>Project Goal:</strong> integrate game-theoretic problems into LLM post-training to enhance LLM capabilities.</li>
       <li><strong>Project Results:</strong> delivered game-oriented LLM evaluation &amp; training frameworks; trained an LLM Texas Hold'em AI that outperformed GPT-o3, Grok-4, etc., with improved instruction following.</li>
@@ -122,7 +121,6 @@ redirect_from:
 </div>
 
 ### Fen AI &mdash; Texas Hold'em AI (Sep. 2023 ~ Jan. 2024)
-*Project member, team of four.*
 
 - **Project Goal:** create an AI that matches the performance of Pluribus, a renowned Texas Hold'em AI.
 - **Project Results:** the final AI reached the level of professional players in two-player Texas Hold'em; the multi-player version is still under development.
@@ -132,7 +130,6 @@ redirect_from:
   <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Nuverse"></div>
   <div class="logo-row__body">
     <h3>ByteDance Nuverse &mdash; Reinforcement Learning Internship (Jul. 2021 ~ Mar. 2022)</h3>
-    <p><em>Main implementer, team of two.</em></p>
     <ul>
       <li><strong>Project Goal:</strong> design multi-style AI companion NPCs for the game <em>One Piece: Burning Blood</em>.</li>
       <li><strong>Project Results:</strong> added a style evolution module on top of the previous AI training framework, leading to an 80–120% improvement in key indicators and clear style differentiation in play; several AIs reached deployable quality.</li>
@@ -142,7 +139,6 @@ redirect_from:
 </div>
 
 ### China Resources Group &mdash; Land Auction (Feb. 2021 ~ Jun. 2021)
-*Project leader, team of six.*
 
 - **Project Goal:** design a bidding strategy for China Resources Group in the "first/last" land auction.
 - **Project Results:** the strategy was approved by China Resources Land Group and deployed in dozens of land auctions (each over $100M). The algorithm outperformed the group's expert approach, boosting bid accuracy 3–4× and winning probability by ~5%, and was adopted as their standard land auction strategy.
