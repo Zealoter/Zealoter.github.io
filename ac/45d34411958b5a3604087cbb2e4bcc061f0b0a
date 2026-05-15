@@ -1,0 +1,293 @@
+_pages/about-zh.md
+  0083cb31c65d6489 24-25,40,42-43,45,47-70,72-73,75-90,92-93,95-97 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a06eebe9e0144ed0d42a43a","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[24,25]},{"Single":40},{"Range":[42,43]},{"Single":45},{"Range":[47,70]},{"Range":[72,73]},{"Range":[75,90]},{"Range":[92,93]},{"Range":[95,97]}]}]}
+_pages/about.md
+  0083cb31c65d6489 37-38,87,89-90,92,94-117,119-120,122-137,139-140,142-144 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a06eebe9e0144ed0d42a43a","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Range":[37,38]},{"Single":87},{"Range":[89,90]},{"Single":92},{"Range":[94,117]},{"Range":[119,120]},{"Range":[122,137]},{"Range":[139,140]},{"Range":[142,144]}]}]}
+_includes/author-profile.html
+  0083cb31c65d6489 8,18 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a06eebe9e0144ed0d42a43a","tool_type":"agent","tool_id":"Edit","line_ranges":[{"Single":8},{"Single":18}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "ac45d34411958b5a3604087cbb2e4bcc061f0b0a",
+  "prompts": {
+    "0083cb31c65d6489": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a06dc189e0144ed0d42a1db",
+        "model": "openrouter-2o__dev"
+      },
+      "human_author": "bytedance <964950472@qq.com>",
+      "messages": [],
+      "total_additions": 108,
+      "total_deletions": 32,
+      "accepted_lines": 108,
+      "overriden_lines": 0
+    }
+  },
+  "attestation_metadata": {
+    "_includes/author-profile.html": [
+      {
+        "hash": "0083cb31c65d6489",
+        "line_ranges": [
+          {
+            "Single": 8
+          },
+          {
+            "Single": 18
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a06eebe9e0144ed0d42a43a",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Single": 8
+              },
+              {
+                "Single": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_pages/about-zh.md": [
+      {
+        "hash": "0083cb31c65d6489",
+        "line_ranges": [
+          {
+            "Range": [
+              24,
+              25
+            ]
+          },
+          {
+            "Single": 40
+          },
+          {
+            "Range": [
+              42,
+              43
+            ]
+          },
+          {
+            "Single": 45
+          },
+          {
+            "Range": [
+              47,
+              70
+            ]
+          },
+          {
+            "Range": [
+              72,
+              73
+            ]
+          },
+          {
+            "Range": [
+              75,
+              90
+            ]
+          },
+          {
+            "Range": [
+              92,
+              93
+            ]
+          },
+          {
+            "Range": [
+              95,
+              97
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a06eebe9e0144ed0d42a43a",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "Single": 40
+              },
+              {
+                "Range": [
+                  42,
+                  43
+                ]
+              },
+              {
+                "Single": 45
+              },
+              {
+                "Range": [
+                  47,
+                  70
+                ]
+              },
+              {
+                "Range": [
+                  72,
+                  73
+                ]
+              },
+              {
+                "Range": [
+                  75,
+                  90
+                ]
+              },
+              {
+                "Range": [
+                  92,
+                  93
+                ]
+              },
+              {
+                "Range": [
+                  95,
+                  97
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_pages/about.md": [
+      {
+        "hash": "0083cb31c65d6489",
+        "line_ranges": [
+          {
+            "Range": [
+              37,
+              38
+            ]
+          },
+          {
+            "Single": 87
+          },
+          {
+            "Range": [
+              89,
+              90
+            ]
+          },
+          {
+            "Single": 92
+          },
+          {
+            "Range": [
+              94,
+              117
+            ]
+          },
+          {
+            "Range": [
+              119,
+              120
+            ]
+          },
+          {
+            "Range": [
+              122,
+              137
+            ]
+          },
+          {
+            "Range": [
+              139,
+              140
+            ]
+          },
+          {
+            "Range": [
+              142,
+              144
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a06eebe9e0144ed0d42a43a",
+            "tool_type": "agent",
+            "tool_id": "Edit",
+            "line_ranges": [
+              {
+                "Range": [
+                  37,
+                  38
+                ]
+              },
+              {
+                "Single": 87
+              },
+              {
+                "Range": [
+                  89,
+                  90
+                ]
+              },
+              {
+                "Single": 92
+              },
+              {
+                "Range": [
+                  94,
+                  117
+                ]
+              },
+              {
+                "Range": [
+                  119,
+                  120
+                ]
+              },
+              {
+                "Range": [
+                  122,
+                  137
+                ]
+              },
+              {
+                "Range": [
+                  139,
+                  140
+                ]
+              },
+              {
+                "Range": [
+                  142,
+                  144
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "0083cb31c65d6489": {
+      "tool": "trae",
+      "conversation_id": "6a06dc189e0144ed0d42a1db",
+      "session_id": "6a06dc189e0144ed0d42a1db",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
