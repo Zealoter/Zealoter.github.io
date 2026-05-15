@@ -3,6 +3,7 @@ title: "Welcome to My Blog!"
 date: 2026-05-15
 layout: post
 author: Ju Qi
+lang: en
 ---
 
 Hello! This is my first blog post.

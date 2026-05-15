@@ -3,6 +3,7 @@ title: "The Dialectic of Simplicity and Complexity: Historical Evolution and Pra
 date: 2026-05-15
 layout: post
 author: Ju Qi
+lang: en
 ---
 
 Human understanding of the world has always oscillated between two extremes: one is the reductionist impulse to explain everything with the simplest laws, and the other is the systems perspective that acknowledges the infinite complexity of the world. This oscillation is not a sign of confused thinking, but an inevitable trajectory of human rational development. From Occam's Razor in medieval scholastic philosophy, to the First Principles inherited from ancient Greece, to the Theory of Primary Contradictions born from China's revolutionary practice, these intellectual tools that have shaped human history are essentially simplifying weapons developed by humans when facing a complex world. However, when we apply these simplifying tools indiscriminately to all scenarios, we will inevitably fall into the trap of over-simplification and encounter setbacks in the face of the complexity of the real world. Understanding the origins, cores, and boundaries of these ideas, and thereby achieving the dialectical unity of simplicity and complexity in practice, is a core ability that all decision-makers must master.

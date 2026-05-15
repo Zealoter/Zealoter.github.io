@@ -3,6 +3,7 @@ title: "欢迎来到我的博客！"
 date: 2026-05-15
 layout: post
 author: Ju Qi
+lang: zh
 ---
 
 你好！这是我的第一篇博客文章。
