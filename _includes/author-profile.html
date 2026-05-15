@@ -11,6 +11,7 @@
   {% assign label_scholar = "谷歌学术" %}
   {% assign label_zhihu = "知乎" %}
   {% assign label_xhs = "小红书" %}
+  {% assign label_cv = "个人简历" %}
 {% else %}
   {% assign profile_bio = author.bio %}
   {% assign profile_location = author.location %}
@@ -20,6 +21,7 @@
   {% assign label_scholar = "Google Scholar" %}
   {% assign label_zhihu = "Zhihu" %}
   {% assign label_xhs = "Xiaohongshu" %}
+  {% assign label_cv = "CV" %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
@@ -42,6 +44,7 @@
       {% if profile_location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ profile_location }}</li>
       {% endif %}
+      <li><a href="{{ '/JuQi_CV_EN.pdf' | relative_url }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ label_cv }}</a></li>
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}

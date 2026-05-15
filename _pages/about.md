@@ -31,17 +31,10 @@ redirect_from:
 # 📖 Educations
 
 <div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/hust.svg' | relative_url }}" alt="HUST"></div>
+  <div class="logo-row__logo"><img src="{{ '/images/logos/hust.png' | relative_url }}" alt="HUST"></div>
   <div class="logo-row__body">
     <h4>Huazhong University of Science and Technology &mdash; Wuhan, China</h4>
-    <p><em>Sep. 2019 - Dec. 2025 (now)</em>, Ph.D. in Control Science and Engineering.</p>
-  </div>
-</div>
-
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/aia.svg' | relative_url }}" alt="School of AIA"></div>
-  <div class="logo-row__body">
-    <h4>School of Artificial Intelligence and Automation</h4>
+    <p><em>Sep. 2019 - Dec. 2025 (now)</em>, Ph.D. in Control Science and Engineering, School of Artificial Intelligence and Automation.</p>
     <p>Research areas: game theory, reinforcement learning, large language models.</p>
   </div>
 </div>
@@ -93,42 +86,21 @@ redirect_from:
 
 # 💻 Experiences
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/llm.svg' | relative_url }}" alt="LLM"></div>
-  <div class="logo-row__body">
-    <h3>Fine-tuning LLM via Game Theory (Mar. 2025 ~ Now)</h3>
-    <p>Exploring game-theoretic approaches to overcome data bottlenecks in LLM training. By enabling self-play to generate high-quality data, we aim to advance LLM fine-tuning beyond reliance on static datasets.</p>
-  </div>
-</div>
+### Fine-tuning LLM via Game Theory (Mar. 2025 ~ Now)
+Exploring game-theoretic approaches to overcome data bottlenecks in LLM training. By enabling self-play to generate high-quality data, we aim to advance LLM fine-tuning beyond reliance on static datasets. The work investigates how multi-agent self-play, regret minimization, and equilibrium-based reward shaping can drive continual improvement of large models without requiring more human-annotated data.
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/vivo.svg' | relative_url }}" alt="vivo"></div>
-  <div class="logo-row__body">
-    <h3>SD Model Fine-Tuning via Reinforcement Learning at Vivo (Feb. 2025 ~ Apr. 2025)</h3>
-    <p>Worked on fine-tuning Stable Diffusion with reinforcement learning. Designed a reward model combining aesthetics, textual relevance, diversity, and human feedback. Early results show improved image quality and alignment, with ongoing efforts to refine reward design and scale distributed training.</p>
-  </div>
-</div>
+### ByteDance Seed &mdash; Reinforcement Learning for Game NPCs (Jul. 2021 ~ Mar. 2022)
+This was the most formative industrial project in my research career. I joined ByteDance Nuverse (later part of ByteDance Seed) as the main RL implementer for the AAA project *One Piece: Burning Blood*, where my responsibility was to build companion-style NPCs that could fight alongside human players with diverse, human-like personalities rather than a single dominant policy.
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/molecule.svg' | relative_url }}" alt="Fen AI Lab"></div>
-  <div class="logo-row__body">
-    <h3>Texas Hold'em AI Development at Fen AI Lab (Sep. 2023 ~ Jan. 2024)</h3>
-    <p>Contributed to building a poker AI rivaling Pluribus. Implemented and tuned MCCFR and its variants, optimized computation, and developed strategy storage and visualization tools. Helped achieve professional-level play in 2-player games.</p>
-  </div>
-</div>
+I designed and integrated a *style evolution module* on top of a distributed PPO/IMPALA training framework, fusing offline human preference data, online behavioral statistics and reward decomposition so that we could explicitly trade off aggression, defense, support and exploration. To make styles distinguishable yet still strong, I introduced population-based training with auxiliary diversity rewards, KL constraints across style heads, and a curated curriculum from scripted bots up to mirror self-play. I also rebuilt the data pipeline, evaluation harness and online A/B tooling, which turned a research prototype into something operations could actually ship.
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/bytedance.svg' | relative_url }}" alt="ByteDance"></div>
-  <div class="logo-row__body">
-    <h3>Reinforcement Learning for Game NPCs at ByteDance Nuverse (Jul. 2021 ~ Mar. 2022)</h3>
-    <p>During my role as the main implementer at ByteDance Nuverse from July 2021 to March 2022, I designed multi-style AI companion NPCs for the game One Piece: Burning Blood. Enhanced RL framework with a style evolution module, integrating human preference data to create diverse playstyles. Improved key performance metrics by 80–120%, with some models production-ready. Co-authored a paper on human–AI interaction.</p>
-  </div>
-</div>
+The launched companion NPCs improved key combat KPIs by **80–120%** over the previous rule-based system, several style variants reached production-ready quality, and the methodology was reused as an internal template for subsequent NPC projects. The work also resulted in a co-authored paper on human–AI interaction. This experience taught me how to take RL all the way from algorithmic design to a real, high-traffic product.
 
-<div class="logo-row">
-  <div class="logo-row__logo"><img src="{{ '/images/logos/cr.svg' | relative_url }}" alt="China Resources"></div>
-  <div class="logo-row__body">
-    <h3>Land Auction Strategy Optimization at China Resources Group (Feb. 2021 ~ Jun. 2022)</h3>
-    <p>Developed a bidding algorithm for high-stakes land auctions by applying Fictitious Play to model competitor strategies and optimize bids. Validated in multiple live auctions, the method improved bid accuracy by 3–4× and increased win probability by ~5%. The algorithm was subsequently adopted as the standard tool for large-scale transactions.</p>
-  </div>
-</div>
+### SD Model Fine-Tuning via Reinforcement Learning at vivo (Feb. 2025 ~ Apr. 2025)
+Worked on fine-tuning Stable Diffusion with reinforcement learning. Designed a reward model combining aesthetics, textual relevance, diversity, and human feedback. Early results show improved image quality and alignment, with ongoing efforts to refine reward design and scale distributed training.
+
+### Texas Hold'em AI Development at Fen AI Lab (Sep. 2023 ~ Jan. 2024)
+Contributed to building a poker AI rivaling Pluribus. Implemented and tuned MCCFR and its variants, optimized computation, and developed strategy storage and visualization tools. Helped achieve professional-level play in 2-player games.
+
+### Land Auction Strategy Optimization at China Resources Group (Feb. 2021 ~ Jun. 2022)
+Developed a bidding algorithm for high-stakes land auctions by applying Fictitious Play to model competitor strategies and optimize bids. Validated in multiple live auctions, the method improved bid accuracy by 3–4× and increased win probability by ~5%. The algorithm was subsequently adopted as the standard tool for large-scale transactions.
