@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div style="text-align: right; margin-bottom: 10px;"><strong>English</strong> | <a href="{{ site.baseurl }}/zh/">中文</a></div>
+
 [//]: # (My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my research areas are game theory and reinforcement learning.)
 
 [//]: # (My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> &#40;You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>&#41;.)

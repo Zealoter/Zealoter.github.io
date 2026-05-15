@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% if page.lang == "zh" %}
+<div style="text-align: right; margin-bottom: 10px;"><a href="{{ site.baseurl }}/blog/">English</a> | <strong>中文</strong></div>
+{% else %}
+<div style="text-align: right; margin-bottom: 10px;"><strong>English</strong> | <a href="{{ site.baseurl }}/zh/blog/">中文</a></div>
+{% endif %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  {% if page.title %}
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% if page.lang == "zh" %}
+          {{ page.date | date: "%Y年%m月%d日" }}
+        {% else %}
+          {{ page.date | date: "%B %d, %Y" }}
+        {% endif %}
+      </time>
+    </p>
+  </header>
+  {% endif %}
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
