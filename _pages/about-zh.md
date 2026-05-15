@@ -28,6 +28,16 @@ lang: zh
 
 
 
+# 🧑‍💼 工作经历
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="字节跳动 Seed"></div>
+  <div class="logo-row__body">
+    <h3>字节跳动 Seed &mdash; 豆包大模型后训练（2026 年 7 月 ~ 至今）</h3>
+    <p>在字节跳动 Seed 团队从事豆包大模型的后训练工作。聚焦于通过 SFT、RLHF / RLAIF 以及面向推理的奖励建模等方法持续提升模型的对齐质量与综合能力，目标是进一步增强豆包在指令跟随、复杂推理与工具使用等方向上的表现。</p>
+  </div>
+</div>
+
 # 📝 学术论文
 
 1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) 提出偏好反事实遗憾最小化算法（Pref-CFR），通过引入偏好与脆弱性参数实现多样化的纳什均衡求解，可在不损失策略强度的前提下定制不同风格的策略，并在德州扑克中展示了不同的打法风格。
@@ -36,11 +46,6 @@ lang: zh
 4. [ELO-Rated Sequence Rewards: Advancing Reinforcement Learning Models.](https://arxiv.org/abs/2409.03301) 提出基于 ELO 评级的序列奖励方法（ERRL），使用序数偏好与 ELO 评分替代传统数值奖励，在 Atari 等长程强化学习任务中取得领先性能。
 
 
-
-# 🧑‍💼 工作经历
-
-### 字节跳动 Seed &mdash; 豆包大模型后训练（2026 年 7 月 ~ 至今）
-在字节跳动 Seed 团队从事豆包大模型的后训练工作。聚焦于通过 SFT、RLHF / RLAIF 以及面向推理的奖励建模等方法持续提升模型的对齐质量与综合能力，目标是进一步增强豆包在指令跟随、复杂推理与工具使用等方向上的表现。
 
 # 💻 实习经历
 
@@ -69,7 +74,7 @@ lang: zh
   </div>
 </div>
 
-### 分子 AI Lab &mdash; 德州扑克 AI（2023 年 9 月 ~ 2024 年 1 月）
+### Fen AI &mdash; 德州扑克 AI（2023 年 9 月 ~ 2024 年 1 月）
 *项目成员，4 人团队。*
 
 - **项目目标：**打造一款对标 Pluribus（业内知名德州扑克 AI）水平的 AI。
@@ -95,3 +100,22 @@ lang: zh
 - **项目目标：**为华润集团设计 "首/末" 类型土地竞拍中的报价策略。
 - **项目成果：**该策略获华润置地集团认可，并在数十宗（每宗超 1 亿美元）的土地竞拍中部署。算法表现优于集团专家方案，报价精度提升 3–4 倍，中标概率提升约 5%，最终被采纳为集团标准土地竞拍策略。
 - **个人工作：**基于历史竞拍数据搭建 "首/末" 类竞拍仿真环境，使用 Fictitious Play 算法开发竞价策略；亲历 3 次真实竞拍，总报价规模约 10 亿美元，并据此持续打磨模型。
+
+# 📝 最新博客
+
+{% assign zh_posts = site.posts | where_exp: "post", "post.path contains '_posts/CN/'" | sort: 'date' | reverse %}
+{% if zh_posts.size > 0 %}
+{% for post in zh_posts limit:2 %}
+<div class="paper-box" style="margin-bottom: 24px;">
+  <h3 style="margin: 0 0 6px 0;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="page__meta" style="margin: 0 0 8px 0;">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</p>
+  <div class="archive__item-excerpt">
+    {{ post.excerpt | strip_html | truncate: 220 }}
+  </div>
+</div>
+{% endfor %}
+
+<p style="text-align: right;"><a href="{{ '/zh/blog/' | relative_url }}">查看全部博客 →</a></p>
+{% else %}
+<p>暂无博客内容，敬请期待。</p>
+{% endif %}

@@ -41,6 +41,16 @@ redirect_from:
 
 
 
+# 🧑‍💼 Work Experiences
+
+<div class="logo-row">
+  <div class="logo-row__logo"><img src="{{ '/images/logos/ByteDance.png' | relative_url }}" alt="ByteDance Seed"></div>
+  <div class="logo-row__body">
+    <h3>ByteDance Seed &mdash; Doubao Post-Training (Jul. 2026 ~ Now)</h3>
+    <p>Working on the post-training of Doubao large language models at ByteDance Seed. Focused on alignment and capability enhancement through supervised fine-tuning, RLHF / RLAIF, and reasoning-oriented reward modeling, with the goal of pushing Doubao's instruction following, reasoning and tool-use abilities further.</p>
+  </div>
+</div>
+
 # 📝 Publications 
 
 1. [Preference-CFR Beyond Nash Equilibrium for Better Game Strategies. (ICML 2025)](https://arxiv.org/abs/2411.01217) Proposes the Preference Counterfactual Regret Minimization (Pref-CFR) algorithm to achieve diverse Nash equilibria, enabling customizable strategies by incorporating preference and vulnerability parameters. Demonstrates distinct play styles in Texas Hold’em without sacrificing strategic strength.
@@ -84,11 +94,6 @@ redirect_from:
 
 [//]: # (- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]]&#40;https://github.com/&#41;)
 
-# 🧑‍💼 Work Experiences
-
-### ByteDance Seed &mdash; Doubao Post-Training (Jul. 2026 ~ Now)
-Working on the post-training of Doubao large language models at ByteDance Seed. Focused on alignment and capability enhancement through supervised fine-tuning, RLHF / RLAIF, and reasoning-oriented reward modeling, with the goal of pushing Doubao's instruction following, reasoning and tool-use abilities further.
-
 # 💻 Internship Experiences
 
 <div class="logo-row">
@@ -116,7 +121,7 @@ Working on the post-training of Doubao large language models at ByteDance Seed. 
   </div>
 </div>
 
-### Fen AI Lab &mdash; Texas Hold'em AI (Sep. 2023 ~ Jan. 2024)
+### Fen AI &mdash; Texas Hold'em AI (Sep. 2023 ~ Jan. 2024)
 *Project member, team of four.*
 
 - **Project Goal:** create an AI that matches the performance of Pluribus, a renowned Texas Hold'em AI.
@@ -142,3 +147,22 @@ Working on the post-training of Doubao large language models at ByteDance Seed. 
 - **Project Goal:** design a bidding strategy for China Resources Group in the "first/last" land auction.
 - **Project Results:** the strategy was approved by China Resources Land Group and deployed in dozens of land auctions (each over $100M). The algorithm outperformed the group's expert approach, boosting bid accuracy 3–4× and winning probability by ~5%, and was adopted as their standard land auction strategy.
 - **Personal Work:** built a simulator of the "first/last" land auction from historical data and applied the Fictitious Play algorithm to develop strategies. Participated in three real auctions involving a total bidding scale of $1B, and refined the model based on real-world outcomes.
+
+# 📝 Latest Blog Posts
+
+{% assign en_posts = site.posts | where_exp: "post", "post.path contains '_posts/EN/'" | sort: 'date' | reverse %}
+{% if en_posts.size > 0 %}
+{% for post in en_posts limit:2 %}
+<div class="paper-box" style="margin-bottom: 24px;">
+  <h3 style="margin: 0 0 6px 0;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="page__meta" style="margin: 0 0 8px 0;">{{ post.date | date: "%B %d, %Y" }}</p>
+  <div class="archive__item-excerpt">
+    {{ post.excerpt | strip_html | truncate: 220 }}
+  </div>
+</div>
+{% endfor %}
+
+<p style="text-align: right;"><a href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
+{% else %}
+<p>No blog posts yet. Check back soon!</p>
+{% endif %}
