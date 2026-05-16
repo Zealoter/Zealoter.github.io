@@ -162,3 +162,13 @@ redirect_from:
 {% else %}
 <p>No blog posts yet. Check back soon!</p>
 {% endif %}
+
+# 🌱 About Me
+
+Cheerful, optimistic, and thrives on tackling challenging tasks. Passionate about **Go (WeiQi)**, **gaming**, and **football**.
+
+- **Go (WeiQi):** roughly 7 dan amateur on Fox Weiqi (野狐围棋).
+- **Gaming:** my long-time favorite is *StarCraft II* — I once reached **Master league on the China server**.
+- **Football:** lifelong fan of **Borussia Dortmund**, with **Marco Reus** being my favorite player.
+
+One funny coincidence I cannot help noticing: almost everything I happen to love — Go, StarCraft II, football — has at some point become a research target of DeepMind. That coincidence is part of why I deeply believe in the power of AI. My goal is to push the frontier of AGI through **reinforcement learning, game theory, and multi-agent systems on top of large language models**, on both the research side and real-world applications.
