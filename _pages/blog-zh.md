@@ -4,6 +4,7 @@ title: ""
 excerpt: ""
 author_profile: true
 lang: zh
+translation_key: blog
 ---
 
 {% if site.google_scholar_stats_use_cdn %}

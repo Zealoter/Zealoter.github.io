@@ -4,6 +4,7 @@ date: 2026-08-25
 layout: post
 author: Ju Qi
 lang: zh
+translation_key: ai-mathematical-proof-organization
 excerpt: "当大量 AI Agent 共同研究一个数学问题，真正稀缺的不再只是生成思路的能力，而是组织、验证、通信与人类监督。本文尝试设计一套以 Claim、证明、反例和审查为核心的 AI 数学研究所。"
 ---
 

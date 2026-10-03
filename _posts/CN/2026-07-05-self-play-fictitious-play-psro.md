@@ -4,6 +4,7 @@ date: 2026-07-05
 layout: post
 author: Ju Qi
 lang: zh
+translation_key: self-play-fictitious-play-psro
 excerpt: "Self-Play 不是一个单一算法，而是一类围绕对手分布构造的训练闭环。本文从 Fictitious Play、Double Oracle 到 PSRO，梳理多智能体训练中“智能体应该如何面对自己的历史”这一主线。"
 ---
 

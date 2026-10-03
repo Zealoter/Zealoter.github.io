@@ -4,6 +4,7 @@ date: 2026-05-24
 layout: post
 author: Ju Qi
 lang: zh
+translation_key: alphago-to-longzhong-dui
 excerpt: "AlphaGo 能在封闭棋盘上击败人类顶尖棋手，却做不出《隆中对》式的开放战略推演。这篇文章从 MCTS 与人类决策的对比出发，剖析为什么真正的难点不是「再多算几步」，而是「思考方式根本不同」。"
 ---
 

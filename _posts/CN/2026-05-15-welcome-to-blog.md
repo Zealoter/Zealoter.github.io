@@ -4,6 +4,7 @@ date: 2026-05-15
 layout: post
 author: Ju Qi
 lang: zh
+translation_key: welcome-to-blog
 ---
 
 你好！这是我的第一篇博客文章。

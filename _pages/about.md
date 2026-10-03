@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
+translation_key: home
 redirect_from: 
   - /about/
   - /about.html
@@ -131,7 +133,7 @@ redirect_from:
   <div class="logo-row__body">
     <h3>ByteDance Nuverse &mdash; Reinforcement Learning Internship (Jul. 2021 ~ Mar. 2022)</h3>
     <ul>
-      <li><strong>Project Goal:</strong> design multi-style AI companion NPCs for the game <em>One Piece: Burning Blood</em>.</li>
+      <li><strong>Project Goal:</strong> design multi-style AI companion NPCs for the game <em>One Piece: Burning Will</em>.</li>
       <li><strong>Project Results:</strong> added a style evolution module on top of the previous AI training framework, leading to an 80–120% improvement in key indicators and clear style differentiation in play; several AIs reached deployable quality.</li>
       <li><strong>Personal Work:</strong> served as the main executor of the project. Under my advisor's guidance, I implemented the multi-style AI algorithm and explored the integration of human preferences into reinforcement learning, which culminated in a research paper summarizing the findings and potential applications.</li>
     </ul>

@@ -8,7 +8,15 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% if page.title and page.title != empty %}
+  {% assign seo_page_title = page.title %}
+{% elsif page.translation_key == 'blog' %}
+  {% if page.lang == 'zh' %}{% assign seo_page_title = '博客与感悟' %}{% else %}{% assign seo_page_title = 'Blog & Thoughts' %}{% endif %}
+{% else %}
+  {% if page.lang == 'zh' %}{% assign seo_page_title = '首页' %}{% else %}{% assign seo_page_title = 'Homepage' %}{% endif %}
+{% endif %}
+{% assign seo_page_title = seo_page_title | markdownify | strip_html | strip_newlines %}
+<title>{{ seo_page_title | escape_once }} - {{ site.title | escape }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,9 +37,9 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:locale" content="{% if page.lang == 'zh' %}zh_CN{% else %}en_US{% endif %}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ seo_page_title | escape_once }} - {{ site.title | escape }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">

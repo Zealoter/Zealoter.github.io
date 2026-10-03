@@ -4,6 +4,7 @@ date: 2026-05-15
 layout: post
 author: Ju Qi
 lang: en
+translation_key: self-play-to-agi
 excerpt: "Self-Play has driven breakthroughs in closed environments, but the leap toward AGI requires far more than scaling. This post outlines six interlocking problems that any self-play system must solve to truly grow like a learner."
 ---
 

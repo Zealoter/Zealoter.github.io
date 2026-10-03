@@ -3,6 +3,8 @@ permalink: /blog/
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
+translation_key: blog
 ---
 
 {% if site.google_scholar_stats_use_cdn %}

@@ -1,9 +1,10 @@
 ---
-title: "From AlphaGo to *Longzhong Dui*: High-Quality Reasoning Under Limited Information"
+title: "From AlphaGo to Longzhong Dui: High-Quality Reasoning Under Limited Information"
 date: 2026-05-24
 layout: post
 author: Ju Qi
 lang: en
+translation_key: alphago-to-longzhong-dui
 excerpt: "AlphaGo can crush human grandmasters on a closed board, yet it cannot produce a *Longzhong Dui*-style open strategic analysis. This post compares MCTS with human decision-making and argues that the real gap is not 'more compute', but a fundamentally different way of thinking."
 ---
 

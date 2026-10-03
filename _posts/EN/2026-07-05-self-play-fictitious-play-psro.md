@@ -4,6 +4,7 @@ date: 2026-07-05
 layout: post
 author: Ju Qi
 lang: en
+translation_key: self-play-fictitious-play-psro
 excerpt: "Self-Play is not a single algorithm, but a training loop centered on opponent distributions. This post connects Fictitious Play, Double Oracle, and PSRO through one unified question: how should an agent face its own history?"
 ---
 
