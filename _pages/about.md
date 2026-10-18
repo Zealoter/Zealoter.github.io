@@ -165,6 +165,21 @@ redirect_from:
 <p>No blog posts yet. Check back soon!</p>
 {% endif %}
 
+# 🎮 Hobbies
+
+The hobbies listed below are not only things I consume: every now and then I build something for them. The biggest of these detours is a Chinese localization of a strategy game I have been playing since high school.
+
+### 黑冰中文版 · Black ICE Chinese — a Chinese localization of HOI3 Black ICE
+
+A free, non-profit fan project that merges **Black ICE** — the largest English mod for *Hearts of Iron III* — with the community's Chinese localization of the game, with the goal that it simply opens in Chinese and can be played from start to finish.
+
+- **Why:** I played HOI3 for over a thousand hours across high school, university and graduate school, and Black ICE was always my favourite: supply is unforgiving, industry is a real planning problem, and the order of battle of a single armoured corps can eat an afternoon. What I could not do was read all of it — three hours of play meant two hours in a dictionary.
+- **What it took:** the engine only understood 8-bit glyphs, so Chinese could not be displayed at all. The project patches `hoi3_tfh.exe` to read 16-bit glyphs (42 patch sites plus an 8 KB new code section), fixes a guaranteed `0xC0000005` crash caused by one wrongly sized register, and turns on the 4 GB address space so late-game saves stop running out of memory.
+- **Where it stands:** 80,195 of 83,751 localization strings translated (**95.8 %**); general names, unit designations and cabinet ministers at **100 %**. Weapon models and specifications are deliberately left in English, because Chinese players read those in English anyway. A few theatre HQ names and a full play-through are still open.
+- **Also, honestly:** a small, checkable sample of human–AI collaboration — the tools, the hours and the token usage are recorded in the repository's `ABOUT.md`.
+
+[Repository →](https://github.com/Zealoter/BlackICE-Chinese)
+
 # 🌱 About Me
 
 Cheerful, optimistic, and thrives on tackling challenging tasks. Passionate about **Go (WeiQi)**, **gaming**, and **football**.
