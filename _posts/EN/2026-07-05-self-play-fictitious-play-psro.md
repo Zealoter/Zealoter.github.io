@@ -2,6 +2,7 @@
 title: "From Self-Play to PSRO: Why Fictitious Play Still Matters for Understanding Multi-Agent Training"
 date: 2026-07-05
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: self-play-fictitious-play-psro

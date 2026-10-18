@@ -2,6 +2,7 @@
 title: "如果让一群 AI 证明数学定理，我们需要设计一家怎样的“公司”？"
 date: 2026-08-25
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: ai-mathematical-proof-organization

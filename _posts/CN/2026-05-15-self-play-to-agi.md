@@ -2,6 +2,7 @@
 title: "从 Self-Play 到 AGI：一条可能的道路，以及六个尚未解决的根本问题"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: self-play-to-agi

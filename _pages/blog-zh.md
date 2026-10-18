@@ -18,9 +18,15 @@ translation_key: blog
 
 # 📝 博客与感悟
 
+这里放两类内容：**学术思考**，和**个人兴趣**。
+
 {% assign cn_posts = site.posts | where_exp: "post", "post.path contains '_posts/CN/'" | sort: 'date' | reverse %}
 {% if cn_posts.size > 0 %}
-{% for post in cn_posts %}
+
+## 🧠 学术思考
+
+{% assign research_posts = cn_posts | where_exp: "post", "post.categories contains 'research'" %}
+{% for post in research_posts %}
 <div class="paper-box" style="margin-bottom: 30px;">
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   <p class="page__meta">{{ post.date | date: "%Y年%m月%d日" }}</p>
@@ -29,6 +35,20 @@ translation_key: blog
   </div>
 </div>
 {% endfor %}
+
+## 🎮 个人兴趣
+
+{% assign personal_posts = cn_posts | where_exp: "post", "post.categories contains 'personal'" %}
+{% for post in personal_posts %}
+<div class="paper-box" style="margin-bottom: 30px;">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="page__meta">{{ post.date | date: "%Y年%m月%d日" }}</p>
+  <div class="archive__item-excerpt">
+    {{ post.excerpt | strip_html | truncate: 200 }}
+  </div>
+</div>
+{% endfor %}
+
 {% else %}
 <p>还没有博客文章，敬请期待！</p>
 {% endif %}

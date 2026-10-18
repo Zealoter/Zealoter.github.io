@@ -19,6 +19,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+I have come to feel that the evaluation system built around papers can no longer capture a person. What someone has built, the questions they have chased, and the interests they have kept for years probably say more about them. I will keep adding more of my projects and interests to this homepage.
+
 [//]: # (My name is Ju Qi. I'm from Huazhong University of Science and Technology, and my research areas are game theory and reinforcement learning.)
 
 [//]: # (My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> &#40;You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>&#41;.)
@@ -173,10 +175,10 @@ The hobbies listed below are not only things I consume: every now and then I bui
 
 A free, non-profit fan project that merges **Black ICE** — the largest English mod for *Hearts of Iron III* — with the community's Chinese localization of the game, with the goal that it simply opens in Chinese and can be played from start to finish.
 
-- **Why:** I played HOI3 for over a thousand hours across high school, university and graduate school, and Black ICE was always my favourite: supply is unforgiving, industry is a real planning problem, and the order of battle of a single armoured corps can eat an afternoon. What I could not do was read all of it — three hours of play meant two hours in a dictionary.
+- **Why:** I played HOI3 for over a thousand hours across high school, university and graduate school, and Black ICE was always my favourite: supply is unforgiving, industry is a real planning problem, and the order of battle of a single armoured corps can eat an afternoon. But my English could not keep up with the reading — three hours of play meant two hours in a dictionary.
 - **What it took:** the engine only understood 8-bit glyphs, so Chinese could not be displayed at all. The project patches `hoi3_tfh.exe` to read 16-bit glyphs (42 patch sites plus an 8 KB new code section), fixes a guaranteed `0xC0000005` crash caused by one wrongly sized register, and turns on the 4 GB address space so late-game saves stop running out of memory.
-- **Where it stands:** 80,195 of 83,751 localization strings translated (**95.8 %**); general names, unit designations and cabinet ministers at **100 %**. Weapon models and specifications are deliberately left in English, because Chinese players read those in English anyway. A few theatre HQ names and a full play-through are still open.
-- **Also, honestly:** a small, checkable sample of human–AI collaboration — the tools, the hours and the token usage are recorded in the repository's `ABOUT.md`.
+- **Where it stands:** 80,195 of 83,751 localization strings translated (**95.8 %**); general names, unit designations and cabinet ministers at **100 %**. Weapon models and specifications are deliberately left in English.
+- **Also:** a small, checkable sample of human–AI collaboration — the tools, the hours and the token usage are recorded in the repository's `ABOUT.md`.
 
 [Repository →](https://github.com/Zealoter/BlackICE-Chinese)
 

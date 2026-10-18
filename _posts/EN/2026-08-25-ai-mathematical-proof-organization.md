@@ -2,6 +2,7 @@
 title: "If We Ask a Team of AIs to Prove Mathematical Theorems, What Kind of ‘Company’ Should We Build?"
 date: 2026-08-25
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: ai-mathematical-proof-organization

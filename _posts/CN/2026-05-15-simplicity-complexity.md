@@ -2,6 +2,7 @@
 title: "简化与复杂的辩证：决策思维的历史演进与实践统一"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: simplicity-complexity

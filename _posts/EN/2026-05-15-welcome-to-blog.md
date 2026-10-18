@@ -2,6 +2,7 @@
 title: "Welcome to My Blog!"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: welcome-to-blog

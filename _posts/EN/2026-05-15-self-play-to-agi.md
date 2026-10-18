@@ -2,6 +2,7 @@
 title: "From Self-Play to AGI: A Plausible Path and Six Unresolved Fundamental Problems"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: self-play-to-agi

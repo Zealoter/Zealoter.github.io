@@ -2,6 +2,7 @@
 title: "从 Self-Play 到 PSRO：Fictitious Play 为什么仍是理解多智能体训练的一条主线？"
 date: 2026-07-05
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: self-play-fictitious-play-psro

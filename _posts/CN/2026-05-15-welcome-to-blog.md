@@ -2,6 +2,7 @@
 title: "欢迎来到我的博客！"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: welcome-to-blog

@@ -2,6 +2,7 @@
 title: "从 AlphaGo 到《隆中对》：有限信息下的高质量推演"
 date: 2026-05-24
 layout: post
+categories: [research]
 author: Ju Qi
 lang: zh
 translation_key: alphago-to-longzhong-dui

@@ -2,6 +2,7 @@
 title: "From AlphaGo to Longzhong Dui: High-Quality Reasoning Under Limited Information"
 date: 2026-05-24
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: alphago-to-longzhong-dui

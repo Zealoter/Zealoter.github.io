@@ -2,6 +2,7 @@
 title: "The Dialectic of Simplicity and Complexity: Historical Evolution and Practical Unity of Decision-Making Thinking"
 date: 2026-05-15
 layout: post
+categories: [research]
 author: Ju Qi
 lang: en
 translation_key: simplicity-complexity
