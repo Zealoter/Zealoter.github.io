@@ -132,6 +132,8 @@ translation_key: home
 - **做到什么程度：** 本地化文本 80,195 / 83,751 条，覆盖率 **95.8%**；将领姓名、部队番号、内阁部长均 **100%**。武器型号和规格故意保留英文。
 - **顺带：** 这也是一个可以核对的人机协作样本：用了什么工具、花了多少时间、烧了多少 token，都写在仓库的 `ABOUT.md` 里。
 
+**2026-11-14 · v1.2.1 已发布。** 增加国旗和科技明细表，修复红绿战斗气泡数字并补齐地图缺字。现可从正版 HOI3 TFH 4.02 直接安装完整包。[更新公告](/zh/blog/black-ice-chinese-v1-2-1/) · [下载完整安装包](https://github.com/Zealoter/BlackICE-Chinese-Releases/releases/tag/v1.2.1)
+
 [仓库 →](https://github.com/Zealoter/BlackICE-Chinese)
 
 # 🌱 关于我

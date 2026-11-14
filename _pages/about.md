@@ -180,6 +180,8 @@ A free, non-profit fan project that merges **Black ICE** — the largest English
 - **Where it stands:** 80,195 of 83,751 localization strings translated (**95.8 %**); general names, unit designations and cabinet ministers at **100 %**. Weapon models and specifications are deliberately left in English.
 - **Also:** a small, checkable sample of human–AI collaboration — the tools, the hours and the token usage are recorded in the repository's `ABOUT.md`.
 
+**November 14, 2026 · v1.2.1 is available.** This update adds country and technology tables, restores battle marker numbers, and fills missing Chinese glyphs. The full package installs on a legitimate copy of HOI3 TFH 4.02. [Release notes](/blog/black-ice-chinese-v1-2-1/) · [Download](https://github.com/Zealoter/BlackICE-Chinese-Releases/releases/tag/v1.2.1)
+
 [Repository →](https://github.com/Zealoter/BlackICE-Chinese)
 
 # 🌱 About Me
